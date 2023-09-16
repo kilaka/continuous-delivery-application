@@ -84,7 +84,7 @@ jobs:
           kustomize: 4.5.4
           command: |
             cd base
-            kustomize edit set image zalerix/continuous-delivery-example:latest=zalerix/continuous-delivery-example:${{ env.app_version }}
+            kustomize edit set image kilaka/continuous-delivery-example:latest=kilaka/continuous-delivery-example:${{ env.app_version }}
             git config --global user.email "cibot@gmail.com"
             git config --global user.name "CI bot"
             git add .
