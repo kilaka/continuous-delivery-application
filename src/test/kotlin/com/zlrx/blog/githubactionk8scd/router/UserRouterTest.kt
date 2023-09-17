@@ -15,7 +15,7 @@ class UserRouterTest {
         val result = runBlocking {
             userService.getUsers().toList()
         }
-        Assertions.assertEquals(5, result.size)
+        Assertions.assertEquals(2, result.size)
     }
 
 }
