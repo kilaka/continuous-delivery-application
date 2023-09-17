@@ -40,5 +40,6 @@ class UserService {
         emit(User(2, "kilaka-modify-2"))
         emit(User(3, "kilaka-modify-3"))
         emit(User(4, "kilaka-modify-4"))
+        emit(User(5, "kilaka-modify-5"))
     }
 }
